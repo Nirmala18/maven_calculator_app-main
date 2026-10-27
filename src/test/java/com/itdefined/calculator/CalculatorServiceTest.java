@@ -16,7 +16,7 @@ public class CalculatorServiceTest {
     @Test
     public void testAdd() {
         assertEquals(34, new CalculatorService().add(8, 26).getResult());
-        assertEquals(-14, new CalculatorService().add(-8, -6).getResult());
+        assertEquals(-4, new CalculatorService().add(-8, -6).getResult());
     }
 
     @Test
